@@ -1,7 +1,7 @@
 
   .general {
     margin: auto;
-    /*background-color: white;*/
+    background-color: white;
     max-width: 1024px;
     border: 1px solid white;
     padding: 0px;
@@ -58,15 +58,6 @@
       color: #404040;
       font-size: 11pt;
       font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-
-  #tbsp {
-      /*text-decoration: underline;
-      text-underline-offset: 0.5em;*/
-      
-      /*border-bottom: 1px solid;*/
-      text-decoration: underline;
-      text-underline-offset: 1.2em;
   }
 
 .headings {
