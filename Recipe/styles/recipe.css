@@ -9,6 +9,13 @@
     background-repeat: repeat-x repeat-y;
   }
 
+ #heading{
+    font-family: 'Lucida Sans Unicode'/*, 'Helvetica', 'Arial', 'sans-serif'*/;
+    font-weight: bold;
+    font-size: 22pt;
+    text-align: center;
+}
+
   .image {
       padding-left: 0px;
   }
@@ -83,14 +90,6 @@
     font-family: sans-serif;
     font-size: small;
     color: darkblue;
-  }
-
-  #heading{
-      font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', 'sans-serif';
-      font-weight: bold;
-      font-size: 22pt;
-      text-align: center;
-      vertical-align: text-bottom;
   }
 
   .attribute{
