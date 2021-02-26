@@ -1,7 +1,32 @@
 
 .body-overall {
+    max-width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.body-overall main {
     background-image: url(../images/background.png);
     background-repeat: repeat-x repeat-y;
+}
+
+.body-overall header {
+    background-image: url(../images/background.png);
+    background-repeat: repeat-x repeat-y;
+}
+
+.body-overall footer {
+    background-image: url(../images/background.png);
+    background-repeat: repeat-x repeat-y;
+}
+
+.head-text{
+    float: left;
+}
+
+.head-text img {
+    float: left;
 }
 
 .nav-container {
@@ -9,6 +34,7 @@
     justify-content: center;
     background-image: url(../images/bannerbg.png);
     background-repeat: repeat-x;
+    margin-bottom: 0px;
 }
 
 div h1 {
@@ -20,21 +46,28 @@ div h1 {
 
 .main-overall-content-area {
     display: flex;
+    margin-top: 0px;
+    justify-content: flex-start;
 }
 
 .main-left {
     flex: 1;
     display: flex;
-    flex-direction: column;
+
+    order: 1;
 }
 
 .main-middle {
     flex: 2;
     border: 4px solid grey;
-    border-radius: 20px;
+    border-bottom: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     display: flex;
     width: 800px;
     align-content: center;
+    order: 2;
+    margin-bottom: 0px;
 }
 
 .middle-up {
@@ -47,6 +80,7 @@ div h1 {
 
 .main-right {
     flex: 1;
+    order: 3;
 }
 
 .middle-left {
@@ -57,7 +91,6 @@ div h1 {
 
 .middle-left-upper {
     flex: 0;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     width: 550px;
@@ -67,7 +100,12 @@ div h1 {
     font-size: 48pt;
     background-image: url(../images/rbg.png);
     background-repeat: repeat-x;
+    border-top-left-radius: 20px;
     align-self: baseline;
+}
+
+.head-text img {
+    border-top-left-radius: 15px;
 }
 
 .middle-left-lower {
@@ -117,7 +155,10 @@ div h1 {
 
 .middle-right-upper {
     flex: 0;
-    margin-bottom: 0;
+}
+
+.middle-right-upper img {
+    border-top-right-radius: 15px;
 }
 
 .middle-right-lower {
@@ -136,8 +177,41 @@ div h1 {
 }
 
 .footer-area {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px;
+}
+
+.footer-right {
+    flex: 1;
+    display: flex;
+    order: 3;
+    flex-direction: column;
+    text-align: right;
+}
+
+.footer-middle {
+    flex: 1;
+    order: 2;
+    flex-basis: 539px;
+    border: 4px solid grey;
     background-color: #A2B964;
-    padding: 5px;
+    border-top: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 0 1px 0 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8pt;
+    vertical-align: center;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-left {
+    flex: 1;
+    order: 1;
 }
 
 .text-reviewer-icon {
@@ -158,8 +232,6 @@ p span {
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 8pt;
-    /*text-align-last: right;
-    padding-left: 40px;*/
     float: left;
     margin-top: 0;
 }
