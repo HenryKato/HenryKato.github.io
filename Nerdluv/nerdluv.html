@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Nerdluv</title>
+            <link rel="stylesheet" type="text/css" href="styles/nerdluv.css">
+        </head>
+        <body>
+
+            <form class="form-wrapper" action="" method="GET" name="New User Sign UP: ">
+                <div>
+                    <label for="Student Name">Name: </label>
+                    <input type="text" name="name" size="16"/>
+                </div>
+                
+                <div class="gender-text">
+                    <label for="Student ID">Gender: </label>
+                    <input type="radio" name="gender" value="Male"/> Male
+                    <input type="radio" name="gender" value="Female" checked="checked"/> Female
+                </div>
+
+                <div>
+                    <label for="Age">Age: </label>
+                    <input type="text" name="age" size="6" maxlength="2"/>
+                </div>
+
+                <div class="gender-text">
+                    <label for="Personality Type">Personality Type: </label>
+                    <input type="text" name="ptype" size="6" maxlength="4"/>
+                    <a href="http://www.humanmetrics.com/cgi-win/JTypes2.asp">(Don't know your type?)</a>
+                </div>
+
+                <div>
+                    <label for="Favorite OS">Favorite OS: </label>
+                    <select name="select" class="gender-text">
+                        <option value="Windows" selected>Windows</option>
+                        <option value="Mac OS X">Mac OS X</option>
+                        <option value="Linux">Linux</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="Seeking Age">Seeking Age: </label>
+                    <input type="text" name="min" value="min" size="6" maxlength="2"/> to 
+                    <input type="text" name="max" value="max" size="6" maxlength="2"/>
+                </div>
+  
+                <div class="button">
+                    <input  type="submit" name="submit" value="Sign Up"/>
+                </div>
+            </form>
+
+            <section class="div-pos">
+                <a href="https://validator.w3.org/check?uri=referer"> 
+                <img src="../Recipe/images/w3c-html.png" alt="Valid HTML5"/></a>
+                <a href="https://validator.w3.org/check/referer"> 
+                <img src="../Recipe/images/w3c-css.png" alt="Valid CSS"/></a>
+            </section>
+
+        </body>
+</html> 
