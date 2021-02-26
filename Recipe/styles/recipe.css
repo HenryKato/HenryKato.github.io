@@ -1,0 +1,106 @@
+
+  .general {
+    margin: auto;
+    background-color: white;
+    max-width: 1024px;
+    border: 1px solid white;
+    padding: 0px;
+    background-image: url("../images/silverware.jpg");
+    background-repeat: repeat-x repeat-y;
+  }
+
+ #heading{
+    font-family: 'Lucida Sans Unicode'/*, 'Helvetica', 'Arial', 'sans-serif'*/;
+    font-weight: bold;
+    font-size: 22pt;
+    text-align: center;
+}
+
+  .image {
+      padding-left: 0px;
+  }
+
+  ul.pie {
+      list-style-image: url(../images/pie_icon.gif);
+  }
+
+  .text-color {
+      color: #A4A400;
+  }
+
+  #defn {
+      font-style: normal;
+      border-bottom: 1px solid;
+      border-color: black;
+  }
+
+  .through-line {
+      text-decoration: line-through;
+  }
+
+  .copy-right {
+      margin-top: 15px;
+      font-family: monospace;
+      font-size: 11pt;
+      text-align: right; /* For Edge */
+      -moz-text-align-last: right; /* For Firefox prior 58.0 */
+      text-align-last: right;
+      position: absolute;
+  }
+
+  .div-pos {
+      vertical-align: bottom;
+      margin-top: 85px;
+  }
+
+  #user-comments {
+      background-color: #FFFF48;
+      font-style: italic;
+      margin-left: 47px;
+      margin-right: 53px;
+      align-content: left;
+  }
+
+  .body-text {
+      color: #404040;
+      font-size: 11pt;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+.headings {
+    font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: normal;
+    font-size: 18pt;
+    background-color: #F0F0F0;
+    padding-left: 0px;
+    text-align: left;
+    text-decoration: underline;
+  }
+
+  h2 span {
+      background-color: #F0F0F0;
+      border-bottom: 1px solid;
+      text-decoration: none;
+      margin-bottom: 0;
+      padding: 0;
+      bottom: 0;
+  }
+
+  .lists {
+    font-family: sans-serif;
+    font-size: small;
+    color: darkblue;
+  }
+
+  .attribute{
+    font-weight: bolder;
+    color: black;
+  }
+
+  .paragraph{
+    padding-left: 16px;
+  }
+
+  .italics {
+    font-style: italic;
+  }
